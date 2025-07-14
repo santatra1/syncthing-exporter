@@ -2,7 +2,7 @@ services:
   syncthing-exporter:
     build: .
     ports:
-      - "9100:9100"
+      - "9200:9100"
     environment:
       - SYNCTHING_HOST
       - API_KEY
