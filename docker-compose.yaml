@@ -4,5 +4,5 @@ services:
     ports:
       - "9100:9100"
     environment:
-      - SYNCTHING_HOST=https://192.168.8.252:8384
-      - API_KEY=y9DJbpvXcspswwxC7HEwGeQzVrJNfCNk
+      - SYNCTHING_HOST
+      - API_KEY
