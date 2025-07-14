@@ -1,6 +1,6 @@
 services:
   syncthing-exporter:
-    image: syncthing-exporter:build_1
+    build: .
     ports:
       - "9100:9100"
     environment:
