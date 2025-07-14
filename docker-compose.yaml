@@ -1,0 +1,8 @@
+services:
+  syncthing-exporter:
+    image: syncthing-exporter:build_1
+    ports:
+      - "9100:9100"
+    environment:
+      - SYNCTHING_HOST=https://192.168.8.252:8384
+      - API_KEY=y9DJbpvXcspswwxC7HEwGeQzVrJNfCNk
